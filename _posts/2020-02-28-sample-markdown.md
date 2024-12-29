@@ -1,95 +1,38 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+title: Happy Birthday, Pavana!
+subtitle: A heartfelt message from Kiwi
+tags: [birthday, love, heartfelt]
 comments: true
-mathjax: true
-author: Bill Smith
+author: Kiwi
 ---
 
 {: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+This is a special message written with lots of love for your special day. Wishing you the happiest birthday and an amazing year ahead! ❤️
 
-**Here is some bold text**
+## Happy Birthday, Pavana! 🎉
 
-## Here is a secondary heading
+I don't say it enough, but I truly value having you in my life with all my heart. Just having someone who understands me and can objectively tell me when I'm wrong is such a blessing. The way we communicate feels so natural and easy, and I'm so glad we overcame the initial roadblock where we used to bottle up our feelings.  
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+I remember when everything used to feel overwhelming, and being in the relationship felt frustrating at times because we didn't speak our minds to each other. I'm so thankful we got through that phase and grew into a relationship where we complement and appreciate one another as independent individuals. We've always rued the long distance, and while it is challenging, the very foundation of our relationship makes it so much easier to handle.  
 
-Here's a table:
+### Now, talking about you... xD  
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+I am so proud of everything you've accomplished. To be in the position you're in, so early in your career, is amazing. It's no wonder they rely on you so much at work. It's also incredibly inspiring how you always pick yourself up after setbacks—even though it might take some time (many times, xD). You always get through it, and it's something I deeply admire. Being there for you, just as you're always there for me, is something I truly cherish.  
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+You've been such a strong pillar of support in my life and have played a huge role in shaping who I am today. You’ve helped me open up more and be honest about my feelings—something I never used to do—so thank you for that.  
 
-How about a yummy crepe?
+## Have the best day and the best year ahead!  
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
+I can't wait to see you very, very soon!  
 
-It can also be centered!
+Love you and miss you so much! ❤️  
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
+**Yours,**  
+Kiwi  
 
-Here's a code chunk:
+---
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+![Birthday Balloons](https://unsplash.com/photos/ZHvM3XIOHoE)
+{: .mx-auto.d-block :}
 
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
