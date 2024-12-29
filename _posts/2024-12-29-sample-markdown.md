@@ -33,6 +33,5 @@ Kiwi
 
 ---
 
-![Birthday Balloons](https://unsplash.com/photos/ZHvM3XIOHoE)
 {: .mx-auto.d-block :}
 
